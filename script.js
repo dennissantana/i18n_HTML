@@ -34,7 +34,7 @@ $('#langES').on('click', function () {
 });
 
 $('#langBR').on('click', function () {
-    lng = 'PT_BR';
+    lng = 'pt_BR';
 
     initI18n();
 });
