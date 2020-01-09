@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Internacionalização</title>
+
+    <script src="./vendor/js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+    <p data-i18n="content.es"></p>
+    <p data-i18n="content.en"></p>
+    <p data-i18n="content.pt"></p>
+
+    <a href="#" data-i18n="content.teste; [title]content.teste"></a>
+
+    <button id="langEN">EN-US</button>
+    <button id="langES">ES-ES</button>
+    <button id="langBR">PT-BR</button>
+
+    <!-- SCRIPTS TRADUÇÃO -->
+    <script src="./vendor/js/i18n/i18nextXHRBackend.min.js"></script>
+    <script src="./vendor/js/i18n/i18next.min.js"></script>
+    <script src="./vendor/js/i18n/jquery-i18next.js"></script>
+    <!-- PARA FUNCIONAR PROMISES NO IE -->
+    <script src="./vendor/js/i18n/bluebird.min.js"></script>
+    <!-- PARA FUNCIONAR PROMISES NO IE -->
+    <!-- SCRIPTS TRADUÇÃO -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
