@@ -28,7 +28,7 @@ $('#langEN').on('click', function () {
 });
 
 $('#langES').on('click', function () {
-    lng = 'es_ES';
+    lng = 'es';
 
     initI18n();
 });
