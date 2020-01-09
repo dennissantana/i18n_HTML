@@ -5,4 +5,4 @@ Exemplo de implantação de internacionalização em HTML e JS puro.
 
 * i18next
 * JQuery
-* BlueBird (Adaptar Promises para o Internet Explorer)
+* BlueBird (Para adaptar Promises para o Internet Explorer)
