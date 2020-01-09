@@ -8,7 +8,7 @@ function initI18n() {
         lng: lng,
         'fallbackLng': 'pt_BR',
         backend: {
-            loadPath: 'locales/{{lng}}/{{ns}}.json'
+            loadPath: '{{lng}}/{{ns}}.json'
         }
     }, function () {
         jqueryI18next.init(i18next, $);
